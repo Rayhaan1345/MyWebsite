@@ -12,8 +12,8 @@ st.markdown("Hi!, Thank you for visiting my website! I'm a Research Intern at [B
 
 ##WORK
 st.header("🧪 My work: ")
-st.markdown("As mentioned previously, I'm a Research Intern at [Brown University](%s). The main goal of my internship is finding new methods for cancer removal without surgery, and how to stop cancer growth as early as possible. In addition, I am also undergoing advanced knowledge gaining through the Brown Pre-College Program.")
-
+st.markdown("As mentioned previously, I'm a Research Intern at [Brown University](%s). The main goal of my internship is finding new methods for cancer removal without surgery, and how to stop cancer growth as early as possible. In addition, I am also undergoing advanced knowledge gaining through the Brown Pre-College Program. Apart from this, I am a sophomore at Podar International School (Cambridge), Nerul, Navi Mumbai CIE 9")
+st.info('41/45 points 9th grade, Weighted: 9.7/10 GPA')
 #SKILL
 st.header("💼 My skills: ")
 st.info("🐍 Python")
