@@ -43,5 +43,5 @@ st.subheader("Some Useful links: ")
 st.markdown("LinkedIn: https://www.linkedin.com/in/rrkhanrayhaan/")
 me = st.checkbox("Email Adress: ")
 if me:
-    st.info("rayhaankhan1345@gmail.com [preffered]")
+    st.info("rayhaankhan1345@gmail.com [preferred]")
     st.info("rkhan57@brown.edu")
