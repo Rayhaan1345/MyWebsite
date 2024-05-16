@@ -17,10 +17,13 @@ st.info(':red[**41/45 points 9th grade, Weighted: 9.7/10 GPA**]')
 #hobby
 st.header("📷 🦜My hobbies")
 st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation 🌲❤️🐅")
-option = st.selectbox(
-'Some photographs taken by me',('Yes', 'No',))
 
 st.markdown("Along with 🏊🏻swimming, trying to achieve high typing speeds⌨️ and... RESEARCH!")
+drive = 'https://drive.google.com/drive/folders/15-nUWy8NdMhdSlY7IRLeR7gxSU9bHLJy?usp=sharing'
+option = st.selectbox(
+'Some photographs taken by me',('Yes', 'No',))
+if option == 'Yes':
+    st.info("Go [here]" % drive)
 #SKILL
 st.header("💼 My proficiencies ")
 st.info("🐍 Python")
