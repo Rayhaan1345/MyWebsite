@@ -18,9 +18,7 @@ st.info(':red[**41/45 points 9th grade, Weighted: 9.7/10 GPA**]')
 st.header("📷 🦜My hobbies")
 st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation 🌲❤️🐅")
 option = st.selectbox(
-'Some photographs taken by me',
-'('components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile-displayphoto-shrink_200_200/0/1712669123007?e=2147483647&v=beta&t=6-kK-ZzT_34_yoDvCQ_I-TSWpFUNvcCp-FgGM5NWepI", height=250)
-', 'Home phone', 'Mobile phone'))
+'Some photographs taken by me',('Yes', 'No',))
 
 st.markdown("Along with 🏊🏻swimming, trying to achieve high typing speeds⌨️ and... RESEARCH!")
 #SKILL
