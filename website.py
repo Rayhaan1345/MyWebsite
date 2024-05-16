@@ -23,7 +23,7 @@ drive = 'https://drive.google.com/drive/folders/15-nUWy8NdMhdSlY7IRLeR7gxSU9bHLJ
 option = st.selectbox(
 'Would you like to see some photographs taken by me',('Yes', 'No',))
 if option == 'Yes':
-    st.markdown("Go [here](%s)")
+    st.markdown("Go [here](%s)" % brown)
 #SKILL
 st.header("💼 My proficiencies ")
 st.info("🐍 Python")
