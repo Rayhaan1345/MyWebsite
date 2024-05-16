@@ -17,9 +17,9 @@ st.info(':red[**41/45 points 9th grade, Weighted: 9.7/10 GPA**]')
 #hobby
 st.header("📷 🦜My hobbies")
 st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation 🌲❤️🐅")
-option = st.selectbox("Check out some of my work!")
-if option:
-    st.markdown("fjd")
+option = st.selectbox(
+'How would you like to be contacted?',
+('Email', 'Home phone', 'Mobile phone'))
 st.markdown("Along with 🏊🏻swimming, trying to achieve high typing speeds⌨️ and... RESEARCH!")
 #SKILL
 st.header("💼 My proficiencies ")
