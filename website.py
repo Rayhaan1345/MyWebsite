@@ -22,7 +22,7 @@ st.markdown("Along with 🏊🏻swimming, trying to achieve high typing speeds�
 drive = 'https://drive.google.com/drive/folders/15-nUWy8NdMhdSlY7IRLeR7gxSU9bHLJy?usp=sharing'
 st.button("See some pictures taken by me", type="primary")
 if st.button:
-    st.markdown("click [here](%s)", % drive)
+    st.markdown("click [here](%s)" % drive)
 #SKILL
 st.header("💼 My proficiencies ")
 st.info("🐍 Python")
