@@ -20,8 +20,8 @@ st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation
 
 st.markdown("Along with 🏊🏻swimming, trying to achieve high typing speeds⌨️ and... RESEARCH!")
 drive = 'https://drive.google.com/drive/folders/15-nUWy8NdMhdSlY7IRLeR7gxSU9bHLJy?usp=sharing'
-option = st.button(" See some pictures taken by me", type="primary")
-if option:
+st.button("See some pictures taken by me", type="primary")
+if st.button:
     st.markdown("click [here](%s)", % drive)
 #SKILL
 st.header("💼 My proficiencies ")
