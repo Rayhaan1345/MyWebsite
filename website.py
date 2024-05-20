@@ -20,10 +20,9 @@ st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation
 
 st.markdown("Along with 🏊🏻swimming, trying to achieve high typing speeds⌨️ and... RESEARCH!")
 drive = 'https://drive.google.com/drive/folders/15-nUWy8NdMhdSlY7IRLeR7gxSU9bHLJy?usp=sharing'
-option = st.selectbox(
-'Would you like to see some photographs taken by me',('Yes', 'No',))
-if option == 'Yes':
-    st.markdown("Go [here](%s)" % drive)
+option = st.button(" See some pictures taken by me", type="primary")
+if option:
+    st.markdown("click [here](%s)", % drive)
 #SKILL
 st.header("💼 My proficiencies ")
 st.info("🐍 Python")
