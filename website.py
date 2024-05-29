@@ -55,4 +55,4 @@ st.header("☎️ Ways to contact")
 me = st.checkbox("Email Adress: ")
 if me:
     st.info("rayhaankhan1345@gmail.com [preferred]")
-    st.info("rkhan57@brown.edu")
+
