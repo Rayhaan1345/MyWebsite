@@ -40,10 +40,10 @@ st.markdown(":blue[HarvardX CS50's Introduction To Programming With Scratch]")
 
 ## Other projects
 st.header(" 🤖 Some of my projects: ")
-st.info("Weather Fun App!, the end of clunky weather apps!")
+st.success("Weather Fun App!, the end of clunky weather apps!")
 st.markdown("Visit: https://weatherisfun.streamlit.app/")
 
-st.info("CT Scan classifying custom model implementation")
+st.success("CT Scan classifying custom model implementation")
 st.markdown("Visit: https://huggingface.co/spaces/RayhaanK/lungorbrain")
 
 ## userful links
