@@ -12,7 +12,7 @@ st.markdown("Hi!, Thank you for visiting my website! I have recently been offere
 
 ##WORK
 st.header("🧪 My work ")
-#st.markdown("I love making ML models be it regression, vision. I have a knack for making quirky projects, like an electric fence I am working on which is decked out with proximity sensors, alarms, light sensors and it will be powered by solar panels and car batteries.  ")
+st.markdown("I love making ML models be it regression, vision. I have a knack for making quirky projects, like an electric fence I am working on which is decked out with proximity sensors, alarms, light sensors and it will be powered by solar panels and car batteries.  ")
 st.info(':red[**41/45 points 9th grade, Weighted: 9.7/10 GPA**]')
 #hobby
 st.header("📷 🦜My hobbies")
