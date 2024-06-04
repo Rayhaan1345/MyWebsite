@@ -8,11 +8,11 @@ components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile
 st.title("Rayhaan Khan")
 st.header(":violet[About Me ]")
 brown = "https://www.brown.edu/"
-st.markdown("Hi!, Thank you for visiting my website! I am Studying in Grade 10 in Podar International (CIE), Seawoods, Navi Mumbai, India. I love to delve deeper into concepts regarding Mathematics, AI, Deep Learning and especially Cancer Biology." )
+st.markdown("Hi!, Thank you for visiting my website! I have recently been offered a place as Research Intern at Brown University for Cancer Biology. I am Studying in Grade 10 in Podar International (CIE), Seawoods, Navi Mumbai, India. I love to delve deeper into concepts regarding Mathematics, AI, Deep Learning and especially Cancer Biology." )
 
 ##WORK
 st.header("🧪 My work ")
-#st.markdown("As mentioned previously, I'm a Research Intern at [Brown University](%s). The main goal of my internship is finding new methods for cancer removal without surgery, and how to stop cancer growth as early as possible. In addition, I am also undergoing advanced knowledge gaining through the Brown Pre-College Program. Apart from this, I am a sophomore at Podar International School (Cambridge), Nerul, Navi Mumbai, India ")
+#st.markdown("I love making ML models be it regression, vision. I have a knack for making quirky projects, like an electric fence I am working on which is decked out with proximity sensors, alarms, light sensors and it will be powered by solar panels and car batteries.  ")
 st.info(':red[**41/45 points 9th grade, Weighted: 9.7/10 GPA**]')
 #hobby
 st.header("📷 🦜My hobbies")
