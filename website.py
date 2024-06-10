@@ -3,8 +3,6 @@ import streamlit.components.v1 as components
 
 components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile-displayphoto-shrink_200_200/0/1712669123007?e=2147483647&v=beta&t=6-kK-ZzT_34_yoDvCQ_I-TSWpFUNvcCp-FgGM5NWepI", height=250)
 
-##Page config
-st.set_page_config(page_title='About me', page_icon="pictureofme.png",layout='wide')
 ##ABOUT
 st.title("Rayhaan Khan")
 st.header(":violet[About Me ]")
@@ -57,4 +55,7 @@ st.header("☎️ Ways to contact")
 me = st.checkbox("Email Adress: ")
 if me:
     st.info("rayhaankhan1345@gmail.com [preferred]")
+
+##Page config
+st.set_page_config(page_title='About me', page_icon="pictureofme.png",layout='wide')
 
