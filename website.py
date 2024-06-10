@@ -17,7 +17,7 @@ st.info(':red[**41/45 points 9th grade, Weighted: 9.7/10 GPA**]')
 
 #Publications
 st.header('🖨️⌨️ Publications')
-st.image('')
+st.image('report.png',caption='Click here to visit: https://drive.google.com/file/d/1NK5K5XpwEViTBirFrtdx0z29iKdMGhTT/view?usp=sharing')
 #hobby
 st.header("📷 🦜My hobbies")
 st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation 🌲❤️🐅")
