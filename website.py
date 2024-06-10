@@ -1,6 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
+!pip install streamlit-extras
 from streamlit_extras.app_logo import add_logo
+
 
 components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile-displayphoto-shrink_200_200/0/1712669123007?e=2147483647&v=beta&t=6-kK-ZzT_34_yoDvCQ_I-TSWpFUNvcCp-FgGM5NWepI", height=250)
 
