@@ -4,12 +4,50 @@ import streamlit.components.v1 as components
 
 components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile-displayphoto-shrink_200_200/0/1712669123007?e=2147483647&v=beta&t=6-kK-ZzT_34_yoDvCQ_I-TSWpFUNvcCp-FgGM5NWepI", height=250)
 
-st.set_page_config(
-    page_title="My Streamlit App",
-    page_icon=":rocket:",
-    layout="centered",
-    initial_sidebar_state="auto"
-)
+import streamlit as st
+
+# Set page configuration
+# Function to display an icon with a label
+def display_icon_with_label(icon_path, label):
+    st.image(icon_path, width=40)
+    st.write(label)
+
+# Define the icons and their labels
+tech_stack = [
+    ("icons/typescript.png", "TypeScript"),
+    ("icons/flutter.png", "Flutter"),
+    ("icons/javascript.png", "JavaScript"),
+    ("icons/docker.png", "Docker"),
+    ("icons/firebase.png", "Firebase"),
+    ("icons/vscode.png", "VS Code"),
+    ("icons/react.png", "React"),
+    ("icons/java.png", "Java"),
+    ("icons/golang.png", "Golang"),
+    ("icons/redis.png", "Redis"),
+    ("icons/sc.png", "SC"),
+    ("icons/arduino.png", "Arduino"),
+    ("icons/dart.png", "Dart"),
+    ("icons/github.png", "GitHub"),
+    ("icons/python.png", "Python"),
+    ("icons/postgresql.png", "PostgreSQL"),
+    ("icons/yarn.png", "Yarn"),
+    ("icons/raspberrypi.png", "Raspberry Pi"),
+    ("icons/git.png", "Git"),
+    ("icons/tailwindcss.png", "TailwindCSS"),
+    ("icons/cplusplus.png", "C++"),
+    ("icons/graphql.png", "GraphQL"),
+    ("icons/googlecloud.png", "Google Cloud")
+]
+
+# Create a layout with multiple columns
+num_columns = 4  # Number of columns to display
+columns = st.columns(num_columns)
+
+# Iterate over the tech stack and place icons and labels in columns
+for index, (icon_path, label) in enumerate(tech_stack):
+    col_index = index % num_columns
+    with columns[col_index]:
+        display_icon_with_label(icon_path, label)
 
 
 ##ABOUT
