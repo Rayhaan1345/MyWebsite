@@ -28,12 +28,7 @@ if pics:
     st.image('pic6.jpeg', 'This is my favorite picture')
 #SKILL
 st.header("💼 My proficiencies ")
-st.info("🐍 Python")
-st.info("VS Code")
-st.info("🔬 Research")
-st.info("🧮 Advanced Mathematics")
-st.info("🖥️ 💻 Computer Hardware")
-
+st.image("python.png")
 ## Certifications
 st.header(" 🎓Certifications " )
 edx = 'https://courses.edx.org/certificates/b23e278c0b6d4735b83562769e9b1c71'
