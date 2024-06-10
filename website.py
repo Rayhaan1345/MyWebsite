@@ -14,6 +14,10 @@ st.markdown("Hi!, Thank you for visiting my website! I have recently been offere
 st.header("🧪 My work ")
 st.markdown("I love making ML models be it regression, vision. I have a knack for making quirky projects, like an electric fence I am working on which is decked out with proximity sensors, alarms, light sensors and it will be powered by solar panels and car batteries.  ")
 st.info(':red[**41/45 points 9th grade, Weighted: 9.7/10 GPA**]')
+
+#Publications
+st.header('🖨️⌨️ Publications')
+st.image('')
 #hobby
 st.header("📷 🦜My hobbies")
 st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation 🌲❤️🐅")
@@ -40,11 +44,10 @@ st.markdown(":blue[HarvardX CS50's Introduction To Programming With Scratch]")
 
 ## Other projects
 st.header(" 🤖 Some of my projects: ")
+st.success("Diabetes Predictor with Interactive Report")
+st.markdown("Visit: https://research-report-diabetes.streamlit.app/")
 st.success("Weather Fun App!, the end of clunky weather apps!")
 st.markdown("Visit: https://weatherisfun.streamlit.app/")
-
-st.success("CT Scan classifying custom model implementation")
-st.markdown("Visit: https://huggingface.co/spaces/RayhaanK/lungorbrain")
 
 ## userful links
 
