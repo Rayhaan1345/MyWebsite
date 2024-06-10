@@ -6,8 +6,7 @@ components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile
 ##Page config
 st.set_page_config(
     page_title="Rayhaan Khan",
-    page_icon="pictureofme.png",
-    }
+    page_icon="pictureofme.png"
 )
 
 ##ABOUT
