@@ -56,6 +56,4 @@ me = st.checkbox("Email Adress: ")
 if me:
     st.info("rayhaankhan1345@gmail.com [preferred]")
 
-##Page config
-st.set_page_config(page_title='About me', page_icon="pictureofme.png",layout='wide')
 
