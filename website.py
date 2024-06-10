@@ -25,7 +25,7 @@ st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation
 st.markdown("Along with 🏊🏻swimming, trying to achieve high typing speeds⌨️ and... RESEARCH!")
 pics = st.button("View my work")
 if pics:
-    st.image("")
+    st.image("pic1.jpeg")
 #SKILL
 st.header("💼 My proficiencies ")
 st.info("🐍 Python")
