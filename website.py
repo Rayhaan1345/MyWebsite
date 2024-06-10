@@ -14,7 +14,7 @@ def display_icon_with_label(icon_path, label):
 
 # Define the icons and their labels
 tech_stack = [
-    ("icons/typescript.png", "TypeScript"),
+    ("pic1.jpeg", "TypeScript"),
     ("icons/flutter.png", "Flutter"),
     ("icons/javascript.png", "JavaScript"),
     ("icons/docker.png", "Docker"),
