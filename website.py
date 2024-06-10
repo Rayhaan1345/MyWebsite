@@ -14,28 +14,11 @@ def display_icon_with_label(icon_path, label):
 
 # Define the icons and their labels
 tech_stack = [
-    ("pic1.jpeg", "TypeScript"),
-    ("icons/flutter.png", "Flutter"),
-    ("icons/javascript.png", "JavaScript"),
-    ("icons/docker.png", "Docker"),
-    ("icons/firebase.png", "Firebase"),
-    ("icons/vscode.png", "VS Code"),
-    ("icons/react.png", "React"),
-    ("icons/java.png", "Java"),
-    ("icons/golang.png", "Golang"),
-    ("icons/redis.png", "Redis"),
-    ("icons/sc.png", "SC"),
+    ("vscode.png", "VS Code"),
     ("icons/arduino.png", "Arduino"),
-    ("icons/dart.png", "Dart"),
     ("icons/github.png", "GitHub"),
     ("icons/python.png", "Python"),
-    ("icons/postgresql.png", "PostgreSQL"),
-    ("icons/yarn.png", "Yarn"),
-    ("icons/raspberrypi.png", "Raspberry Pi"),
     ("icons/git.png", "Git"),
-    ("icons/tailwindcss.png", "TailwindCSS"),
-    ("icons/cplusplus.png", "C++"),
-    ("icons/graphql.png", "GraphQL"),
     ("icons/googlecloud.png", "Google Cloud")
 ]
 
