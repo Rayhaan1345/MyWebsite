@@ -23,7 +23,9 @@ st.header("📷 🦜My hobbies")
 st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation 🌲❤️🐅")
 
 st.markdown("Along with 🏊🏻swimming, trying to achieve high typing speeds⌨️ and... RESEARCH!")
-pics = st.link_button("View my work")
+pics = st.button("View my work")
+if pics:
+    st.image("")
 #SKILL
 st.header("💼 My proficiencies ")
 st.info("🐍 Python")
