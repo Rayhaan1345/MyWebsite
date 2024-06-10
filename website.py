@@ -23,7 +23,7 @@ st.header("📷 🦜My hobbies")
 st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation 🌲❤️🐅")
 
 st.markdown("Along with 🏊🏻swimming, trying to achieve high typing speeds⌨️ and... RESEARCH!")
-st.link_button("View my work", "https://drive.google.com/drive/folders/15-nUWy8NdMhdSlY7IRLeR7gxSU9bHLJy?usp=sharing")
+pics = st.link_button("View my work")
 #SKILL
 st.header("💼 My proficiencies ")
 st.info("🐍 Python")
