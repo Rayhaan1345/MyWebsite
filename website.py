@@ -17,16 +17,14 @@ st.info(':red[**41/45 points 9th grade, Weighted: 9.7/10 GPA**]')
 
 #Publications
 st.header('🖨️⌨️ Publications')
-st.image('report.png',caption='Click here to visit: https://drive.google.com/file/d/1NK5K5XpwEViTBirFrtdx0z29iKdMGhTT/view?usp=sharing')
+st.markdown("While doing my internship at M42, under Dr. Shadab Khan, I built a deep learning model for identifying diabetes patients early and help them to get out of the diabetes spectrum. Here is my detailed report on how I built the model, how it can be implemented, etc. And Also a detailed codebook is also available with the report on Kaggle!")
+st.link_button("View my report", "https://drive.google.com/file/d/1NK5K5XpwEViTBirFrtdx0z29iKdMGhTT/view?usp=sharing")
 #hobby
 st.header("📷 🦜My hobbies")
 st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation 🌲❤️🐅")
 
 st.markdown("Along with 🏊🏻swimming, trying to achieve high typing speeds⌨️ and... RESEARCH!")
-drive = 'https://drive.google.com/drive/folders/15-nUWy8NdMhdSlY7IRLeR7gxSU9bHLJy?usp=sharing'
-option = st.button("See some pictures taken by me", type="primary")
-if option:
-    st.markdown("click [here](%s)" % drive)
+st.link_button("View my work", "https://drive.google.com/drive/folders/15-nUWy8NdMhdSlY7IRLeR7gxSU9bHLJy?usp=sharing")
 #SKILL
 st.header("💼 My proficiencies ")
 st.info("🐍 Python")
