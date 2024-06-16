@@ -1,6 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+
 st.set_page_config(layout="centered", page_icon="pictureofme.png", page_title="Rayhaan Khan")
 
 components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile-displayphoto-shrink_200_200/0/1712669123007?e=2147483647&v=beta&t=6-kK-ZzT_34_yoDvCQ_I-TSWpFUNvcCp-FgGM5NWepI", height=250)
@@ -12,6 +13,9 @@ components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile
 
 ##ABOUT
 st.title("Rayhaan Khan")
+
+badge(type="github", name="https://www.linkedin.com/in/rrkhanrayhaan/ ")
+
 st.header(":violet[About Me ]")
 brown = "https://www.brown.edu/"
 st.markdown("Hi!, Thank you for visiting my website! I have recently been offered a place as Research Intern at Brown University for Cancer Biology. I am Studying in Grade 10 in Podar International (CIE), Seawoods, Navi Mumbai, India. I love to delve deeper into concepts regarding Mathematics, AI, Deep Learning and especially Cancer Biology." )
