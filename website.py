@@ -10,7 +10,7 @@ components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile
 lnc = 'https://www.linkedin.com/in/rrkhanrayhaan/'
 Github = 'https://github.com/Rayhaan1345'
 st.markdown("[Linkedin](%s)" % lnc)
-st.write("[github](%s)" % Github)
+st.write("[Github](%s)" % Github)
 
 
 
