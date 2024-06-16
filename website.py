@@ -1,7 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
-
-from streamlit_extras.badges import badge
+   
 
 st.set_page_config(layout="centered", page_icon="pictureofme.png", page_title="Rayhaan Khan")
 
@@ -15,7 +14,7 @@ components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile
 ##ABOUT
 st.title("Rayhaan Khan")
 
-badge(type="github", name="Rayhaan1345")
+badge(type="github", name="Rayhaan1345/website")
 
 st.header(":violet[About Me ]")
 brown = "https://www.brown.edu/"
