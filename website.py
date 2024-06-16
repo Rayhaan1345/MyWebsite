@@ -14,7 +14,7 @@ components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile
 ##ABOUT
 st.title("Rayhaan Khan")
 
-badge(type="github", name="https://www.linkedin.com/in/rrkhanrayhaan/ ")
+badge(type="github", name="Rayhaan1345")
 
 st.header(":violet[About Me ]")
 brown = "https://www.brown.edu/"
