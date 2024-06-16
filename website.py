@@ -7,14 +7,10 @@ st.set_page_config(layout="centered", page_icon="pictureofme.png", page_title="R
 components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile-displayphoto-shrink_200_200/0/1712669123007?e=2147483647&v=beta&t=6-kK-ZzT_34_yoDvCQ_I-TSWpFUNvcCp-FgGM5NWepI", height=250)
 
 
-# Define the icons and their labels
-#
 
 
 ##ABOUT
 st.title("Rayhaan Khan")
-
-badge(type="github", name="Rayhaan1345/website")
 
 st.header(":violet[About Me ]")
 brown = "https://www.brown.edu/"
@@ -36,10 +32,15 @@ st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation
 st.markdown("Along with 🏊🏻swimming, trying to achieve high typing speeds⌨️ and... RESEARCH!")
 pics = st.link_button("click here to view my bird photos", "https://drive.google.com/drive/folders/15-nUWy8NdMhdSlY7IRLeR7gxSU9bHLJy")
 if pics:
-    st.image('pic6.jpeg', 'This is my favorite picture')
+    st.image('pic6.jpeg', 'This is my favorite picture ❤️')
 #SKILL
 st.header("💼 My proficiencies ")
-st.image("python.png")
+st.info("🐍 Python")
+st.info("🧑‍💻 VS Code")
+st.info("🤖 Arduino")
+st.info("🔬 Research")
+st.info("📊 Probability & statistics | 🧮 Advanced Math")
+
 ## Certifications
 st.header(" 🎓Certifications " )
 edx = 'https://courses.edx.org/certificates/b23e278c0b6d4735b83562769e9b1c71'
