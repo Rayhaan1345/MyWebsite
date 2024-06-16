@@ -1,16 +1,10 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+st.set_page_config(layout="centered", page_icon=":knot:", page_title="streamlit-extras")
 
 components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile-displayphoto-shrink_200_200/0/1712669123007?e=2147483647&v=beta&t=6-kK-ZzT_34_yoDvCQ_I-TSWpFUNvcCp-FgGM5NWepI", height=250)
 
-import streamlit as st
-
-# Set page configuration
-# Function to display an icon with a label
-def display_icon_with_label(icon_path, label):
-    st.image(icon_path, width=40)
-    st.write(label)
 
 # Define the icons and their labels
 tech_stack = [
