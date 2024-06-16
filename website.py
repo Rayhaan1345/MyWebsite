@@ -7,24 +7,7 @@ components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile
 
 
 # Define the icons and their labels
-tech_stack = [
-    ("vscode.png", "VS Code"),
-    ("icons/arduino.png", "Arduino"),
-    ("icons/github.png", "GitHub"),
-    ("icons/python.png", "Python"),
-    ("icons/git.png", "Git"),
-    ("icons/googlecloud.png", "Google Cloud")
-]
-
-# Create a layout with multiple columns
-num_columns = 4  # Number of columns to display
-columns = st.columns(num_columns)
-
-# Iterate over the tech stack and place icons and labels in columns
-for index, (icon_path, label) in enumerate(tech_stack):
-    col_index = index % num_columns
-    with columns[col_index]:
-        display_icon_with_label(icon_path, label)
+#
 
 
 ##ABOUT
