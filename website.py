@@ -29,10 +29,10 @@ st.info(':red[**41/45 points 9th grade (Cambridge International), Weighted: 9.7/
 ##Experience
 st.header("📂 Experience")
 
-st.subheader("AI research intern at M42 Health - Abu Dhabi")
+st.write("**AI research intern at M42 Health - Abu Dhabi**")
 st.image('m42.png')
 
-st.subheader("Offered place as Research Intern @ Brown University")
+st.write("**Offered place as Research Intern @ Brown University**")
 st.image('brown.png')
 #Publications
 st.header('🖨️⌨️ Publications')
