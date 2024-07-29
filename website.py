@@ -30,10 +30,10 @@ st.info(':red[**41/45 points 9th grade (Cambridge International), Weighted: 9.7/
 st.header("📂 Experience")
 
 st.subheader("AI research intern at M42 Health - Abu Dhabi")
-st.image(pass)
+st.image('m42.png')
 
 st.subheader("Offered place as Research Intern @ Brown University")
-st.image(pass)
+st.image('brown.png')
 #Publications
 st.header('🖨️⌨️ Publications')
 m42 = "https://m42.ae/"
