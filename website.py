@@ -19,16 +19,17 @@ st.title("Rayhaan Khan")
 
 st.header(":violet[About Me ]")
 brown = "https://www.brown.edu/"
-st.markdown("Hi!, Thank you for visiting my website! I have recently been offered a place as Research Intern at Brown University for Cancer Biology. I am Studying in Grade 10 in Podar International (CIE), Seawoods, Navi Mumbai, India. I love to delve deeper into concepts regarding Mathematics, AI, Deep Learning and especially Cancer Biology." )
+st.markdown("Hi!, Thank you for visiting my website! I have recently been offered a place as Research Intern at Brown University for Cancer therapeutic methods with AI. I am Studying in Grade 10 in Podar International (CIE), Seawoods, Navi Mumbai, India. I love to delve deeper into concepts regarding Mathematics, AI, especially Deep Learning and Cancer Biology." )
 
 ##WORK
 st.header("🧪 My work ")
-st.markdown("I love making ML models be it regression, vision. I have a knack for making quirky projects, like an electric fence I am working on which is decked out with proximity sensors, alarms, light sensors and it will be powered by solar panels and car batteries.  ")
-st.info(':red[**41/45 points 9th grade, Weighted: 9.7/10 GPA**]')
+st.markdown("I love making ML models be it regression, vision. I have a knack for making quirky projects, like a fence I am working on which is decked out with proximity sensors, alarms, light sensors and it will be powered by solar panels and car batteries.")
+st.info(':red[**41/45 points 9th grade (Cambridge International), Weighted: 9.7/10 GPA**]')
 
 #Publications
 st.header('🖨️⌨️ Publications')
-st.markdown("While doing my internship at M42, under Dr. Shadab Khan, I built a deep learning model for identifying diabetes patients early and help them to get out of the diabetes spectrum. Here is my detailed report on how I built the model, how it can be implemented, etc. And Also a detailed codebook is also available with the report on Kaggle!")
+m42 = "https://m42.ae/"
+st.markdown("While doing my internship at {M42}, under Dr. Shadab Khan, I built a deep learning model for identifying diabetes patients early and help them to get out of the diabetes spectrum. Here is my detailed report on how I built the model, how it can be implemented, etc. And Also a detailed codebook is also available with the report on Kaggle!" % s)
 st.link_button("View my report", "https://drive.google.com/file/d/1zrdhEaEcZr6TzN8UQHBsRLb4PaENmrNy/view?usp=sharing")
 #hobby
 st.header("📷 🦜My hobbies")
