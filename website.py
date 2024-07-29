@@ -33,7 +33,7 @@ st.write("**AI research intern at M42 Health - Abu Dhabi**")
 st.image('m42.png')
 
 st.write("**Offered place as Research Intern @ Brown University**")
-st.image('brown.png')
+st.image('brown.jpeg')
 #Publications
 st.header('🖨️⌨️ Publications')
 m42 = "https://m42.ae/"
