@@ -26,6 +26,14 @@ st.header("🧪 My work ")
 st.markdown("I love making ML models be it regression, vision. I have a knack for making quirky projects, like a fence I am working on which is decked out with proximity sensors, alarms, light sensors and it will be powered by solar panels and car batteries.")
 st.info(':red[**41/45 points 9th grade (Cambridge International), Weighted: 9.7/10 GPA**]')
 
+##Experience
+st.header("📂 Experience")
+
+st.subheader("AI research intern at M42 Health - Abu Dhabi")
+st.image(pass)
+
+st.subheader("Offered place as Research Intern @ Brown University")
+st.image(pass)
 #Publications
 st.header('🖨️⌨️ Publications')
 m42 = "https://m42.ae/"
