@@ -29,7 +29,7 @@ st.info(':red[**41/45 points 9th grade (Cambridge International), Weighted: 9.7/
 #Publications
 st.header('🖨️⌨️ Publications')
 m42 = "https://m42.ae/"
-st.markdown("While doing my internship at {M42}, under Dr. Shadab Khan, I built a deep learning model for identifying diabetes patients early and help them to get out of the diabetes spectrum. Here is my detailed report on how I built the model, how it can be implemented, etc. And Also a detailed codebook is also available with the report on Kaggle!" % s)
+st.markdown("While doing my internship at [M42](%s), under Dr. Shadab Khan, I built a deep learning model for identifying diabetes patients early and help them to get out of the diabetes spectrum. Here is my detailed report on how I built the model, how it can be implemented, etc. And Also a detailed codebook is also available with the report on Kaggle!" % m42)
 st.link_button("View my report", "https://drive.google.com/file/d/1zrdhEaEcZr6TzN8UQHBsRLb4PaENmrNy/view?usp=sharing")
 #hobby
 st.header("📷 🦜My hobbies")
