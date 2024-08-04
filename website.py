@@ -44,10 +44,10 @@ st.header("📷 🦜My hobbies")
 st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation 🌲❤️🐅")
 
 st.markdown("Along with 🏊🏻swimming, trying to achieve high typing speeds⌨️ and... RESEARCH!")
-pics = st.link_button("click here to view my bird photos", "https://drive.google.com/drive/folders/15-nUWy8NdMhdSlY7IRLeR7gxSU9bHLJy")
-if pics:
-   time.sleep(5)
-    st.image('pic6.jpeg', 'This is my favorite picture ❤️')
+tree = False
+pics = st.link_button("click here to view my bird photos", "https://drive.google.com/drive/folders/15-nUWy8NdMhdSlY7IRLeR7gxSU9bHLJy",on_click=tree=True)
+if tree = True
+st.image('pic6.jpeg', 'This is my favorite picture ❤️')
 #SKILL
 st.header("💼 My proficiencies ")
 st.info("🐍 Python")
