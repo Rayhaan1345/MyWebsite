@@ -1,6 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
-import st-pages
+from st_pages import add_page_title, get_nav_from_toml
 
 st.set_page_config(layout="wide", page_icon="pictureofme.png", page_title="Rayhaan Khan")
 
