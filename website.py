@@ -7,9 +7,9 @@ st.title("Rayhaan Khan")
 
 components.iframe("https://media.licdn.com/dms/image/D4D03AQHW_lM3y3JYQA/profile-displayphoto-shrink_200_200/0/1712669123007?e=2147483647&v=beta&t=6-kK-ZzT_34_yoDvCQ_I-TSWpFUNvcCp-FgGM5NWepI", height=250)
 
-lnc = 'https://www.linkedin.com/in/rrkhanrayhaan/'
-Github = 'https://github.com/Rayhaan1345'
-kaggle = "https://www.kaggle.com/rayhaank"
+Linkedin = 'https://www.linkedin.com/in/rrkhanrayhaan/'
+Linkedin
+
 
 st.warning("Blog: !! Under construction !!")
 st.link_button("Blog", "")
