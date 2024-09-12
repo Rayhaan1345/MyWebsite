@@ -14,7 +14,7 @@ kaggle = 'https://www.kaggle.com/rayhaank'
 
 st.warning("Blog: !! Under construction !!")
 st.link_button("Blog", "")
-st.markdown("[Linkedin](%s)" % lnc, "|[Github](%s)" % Github)
+st.markdown("[Linkedin](%s)" % lnc)
 st.write("[Github](%s)" % Github)
 st.write("[Kaggle](%s)" % kaggle)
 
