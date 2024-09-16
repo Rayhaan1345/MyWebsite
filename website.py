@@ -20,7 +20,7 @@ st.write("[Kaggle](%s)" % kaggle)
 
 
 
-pg = st.navigation(st.Page("blog.py")])
+pg = st.navigation(st.Page("blog.py"))
 pg.run()
 ##ABOUT
 st.header(":violet[About Me ]")
