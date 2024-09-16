@@ -20,6 +20,8 @@ st.write("[Kaggle](%s)" % kaggle)
 
 
 
+pg = st.navigation(st.Page("blog.py")])
+pg.run()
 ##ABOUT
 st.header(":violet[About Me ]")
 brown = "https://www.brown.edu/"
