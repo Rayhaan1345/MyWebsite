@@ -25,7 +25,7 @@ st.write("[Kaggle](%s)" % kaggle)
 st.header(":violet[About Me ]")
 brown = "https://www.brown.edu/"
 st.markdown("Hi!, Thank you for visiting my website! I have recently been offered a place as Research Intern at Brown University for Cancer therapeutic methods with AI. I am Studying in Grade 10 in Podar International (CIE), Seawoods, Navi Mumbai, India. I love to delve deeper into concepts regarding Mathematics, AI, especially Deep Learning and Cancer Biology." )
-st.markdown('If you're looking for collaborators for Robotics/ML projects, please feel free to get in touch!')
+st.markdown("If you're looking for collaborators for Robotics/ML projects, please feel free to get in touch!")
 ##WORK
 st.header("🧪 My work ")
 st.markdown("I love making ML models be it regression, vision. I have a knack for making quirky projects, like a fence I am working on which is decked out with proximity sensors, alarms, light sensors and it will be powered by solar panels and car batteries.")
