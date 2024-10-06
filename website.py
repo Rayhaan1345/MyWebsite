@@ -19,8 +19,6 @@ st.write("[Github](%s)" % Github)
 st.write("[Kaggle](%s)" % kaggle)
 
 
-
-
 ##ABOUT
 st.header(":violet[About Me ]")
 brown = "https://www.brown.edu/"
@@ -44,15 +42,7 @@ st.header('🖨️⌨️ Publications')
 m42 = "https://m42.ae/"
 st.markdown("During my internship at [M42](%s) - under Dr. Shadab, I built a deep learning model for identifying diabetes patients early and help them to get out of the diabetes spectrum. My detailed report on how I built the model, how it can be implemented, etc. along detailed codebook is also available with the report on Kaggle!" % m42)
 st.link_button("View my report", "https://drive.google.com/file/d/1zrdhEaEcZr6TzN8UQHBsRLb4PaENmrNy/view?usp=sharing")
-#hobby
-st.header("📷 🦜My hobbies")
-st.markdown("I love wildlife (birds mainly) photography🦜, nature conservation 🌲❤️🐅")
-st.markdown("Along with 🏊🏻swimming, trying to achieve high typing (100 WPM) speeds and research!")
 
-
-pics = st.link_button("click here to view my bird photos", "https://drive.google.com/drive/folders/15-nUWy8NdMhdSlY7IRLeR7gxSU9bHLJy")
-st.image('pic6.jpeg', 'This is my favorite picture ❤️')
-#SKILL
 st.header("💼 My proficiencies ")
 st.info("🐍 Python")
 st.info("🧑‍💻 VS Code")
