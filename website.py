@@ -11,6 +11,11 @@ lnc = 'https://www.linkedin.com/in/rrkhanrayhaan/'
 Github = 'https://www.github.com/rayhaan1345'
 kaggle = 'https://www.kaggle.com/rayhaank'
 
+col1, mid, col2 = st.beta_columns([1,1,20])
+with col1:
+    st.image('pictureofme.png', width=60)
+with col2:
+    st.write('A Name')
 
 st.warning("Blog: !! Under construction !!")
 st.link_button("Blog", "")
