@@ -26,7 +26,7 @@ st.markdown("Hi!, Thank you for visiting my website! I have recently been offere
 st.markdown("If you're looking for collaborators for Robotics/ML projects, please feel free to get in touch!")
 ##WORK
 st.header("🧪 My work ")
-st.markdown("I love making ML models be it regression, vision. I have a knack for making quirky projects, like a fence I am working on which is decked out with proximity sensors, alarms, light sensors and it will be powered by solar panels and car batteries.")
+st.markdown("I love making ML models be it regression or vision. I have built many projects- but the cornerstone of them being the diabetes predictor model trained and deployed during my internship at M42 Health.")
 st.info(':red[**41/45 points 9th grade (Cambridge International), Weighted: 9.7/10 GPA**]')
 
 ##Experience
