@@ -22,21 +22,13 @@ st.write("[Kaggle](%s)" % kaggle)
 ##ABOUT
 st.header(":violet[About Me ]")
 brown = "https://www.brown.edu/"
-st.markdown("Hi!, Thank you for visiting my website! I have recently been offered a place as Research Intern at Brown University for Cancer therapeutic methods with AI. I am Studying in Grade 10 in Podar International (CIE), Seawoods, Navi Mumbai, India. I love to delve deeper into concepts regarding Mathematics, AI, especially Deep Learning and Cancer Biology." )
+st.markdown("Hi!, Thank you for visiting my website! I was an intern at M42 Health Abu Dhabi and have recently been offered a place as Research Intern at Brown University for Cancer therapeutic methods with AI. I am Studying in Grade 10 in Podar International (CIE), Seawoods, Navi Mumbai, India. I love to delve deeper into concepts regarding Mathematics, AI, especially Deep Learning and Cancer Biology." )
 st.markdown("If you're looking for collaborators for Robotics/ML projects, please feel free to get in touch!")
 ##WORK
-st.header("🧪 My work ")
+st.header("🧪 Research ")
 st.markdown("I love making ML models be it regression or vision. I have built many projects- but the cornerstone of them being the diabetes predictor model trained and deployed during my internship at M42 Health.")
 st.info(':red[**41/45 points 9th grade (Cambridge International), Weighted: 9.7/10 GPA**]')
 
-##Experience
-st.header("📂 Experience")
-
-st.write("**AI research intern at M42 Health - Abu Dhabi**")
-st.image('m42_health_logo.jpeg')
-
-st.write("**Offered place as Research Intern @ Brown University**")
-st.image('brown.jpeg')
 #Publications
 st.header('🖨️⌨️ Publications')
 m42 = "https://m42.ae/"
